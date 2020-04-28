@@ -1,7 +1,6 @@
 /* Typography */
 body {
-  /* Everything is Raleway */
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Manrope';
 }
 /* Except we're using more specific rules to override the headlines */
 h1, h2, h3, h4, h5, h6 {
@@ -9,28 +8,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* And the "logo" */
 .navbar-brand {
-  font-family: 'Permanent Marker', cursive;
-  font-size: 30px;
+  font-family: 'Roboto Slab';
+  font-size: 25px;
 }
 .navbar-brand img {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
 }
 .navbar-light .navbar-brand {
-  color: red;
+  color: gray;
 }
 
 /* Navbar background color */
 .navbar {
-  background-color: white;
+  background-color: black;
 }
 
 /* Jumbotron background and font styles */
-/* Notice that I'm using all of the background CSS rules on the CSS cheat sheet */
 .jumbotron {
   /* Background */
   background-attachment: fixed;
-  background-image: url(workspace.jpg);
+  background-image: url(jumboback.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -42,25 +40,26 @@ h1, h2, h3, h4, h5, h6 {
 
 /* The background color of the "testimonials" part */
 .testimonials {
-  background-color: #eeeeee;
+  background-color: #e7e1e1;
 }
 
 /* The size of the testimonials images */
 .media img {
   width: 64px;
-  height: 64px;
+  height: 50px;
 }
 
-/* The pricing */
-.pricing {
-  background-color: #181818;
+/* restaurants */
+.restaurants {
+  background-color: white;
 }
-.pricing h1 {
-  font-family: 'Permanent Marker', cursive;
-  color: #cccccc;
+.restaurants h1 {
+  font-family: 'Manrope';
+  color: blueviolet;
 }
 
 /* The footer */
 .footer img {
-  width: 100px;
+  width: 70px;
+  height: 70px;
 }
